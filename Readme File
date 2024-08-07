@@ -1,0 +1,20 @@
+#########################################
+I made this configs with mint xfce. This also works on mint cinnamon installation but need to download some additional packages like, xfce4-panel,xfdesktop,xfce4-settings, xfce4-power-manager etc.
+
+First install the packages.  sudo apt install bc openbox obconf playerctl xcompmgr,parcellite,numlockx, rofi, polybar,lxappearance.
+Then copy the files inside the config folder to .config folder
+Also Open the .config/polybar/scripts --- Right click each script and click make executable
+Copy the files from the usr/bin to /usr/bin
+Then extract the fonts.tar.gz to the /usr/share/fonts/ 
+
+##Optional Icons,themes,
+Extract the Cachyos-nord theme,Icons to /usr/share/icons ,/usr/share/themes
+
+Then open the etc/udev/rules.d/90-backlight.rules with your text editor and replace username with your linux username
+
+###Optional If you want to replace bash with zsh follow this
+sudo apt install zsh
+Copy zsh-autosuggestions,zsh-history-substring-search,zsh-syntax-highlighting from the zsh directory to /usr/share/
+
+Extract the zsh.tar.gz files to the home directory.
+Now Reboot and enjoy
