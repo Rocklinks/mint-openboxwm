@@ -9,5 +9,5 @@ RASI="$cd ~/.config/polybar/rofi/launcher.rasi"
 # Run
 rofi \
     -show drun \
-	-kb-cancel Alt-F1 \
+	-kb-cancel Escape \
 	-theme ${RASI}
