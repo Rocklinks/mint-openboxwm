@@ -1,10 +1,10 @@
 #########################################
-I made this configs with mint xfce. This also works on mint cinnamon installation but need to download some additional packages like, xfce4-panel,xfdesktop,xfce4-settings, xfce4-power-manager etc.
+I made this configs with mint xfce. This also works on mint cinnamon installation but need to download some additional packages like xfce4-panel xfdesktop xfce4-settings xfce4-power-manager etc.
 
-First install the packages.  sudo apt install bc openbox obconf playerctl xcompmgr,parcellite,numlockx, rofi, polybar,lxappearance.
+First install the packages.  sudo apt install bc openbox obconf playerctl xcompmgr parcellite numlockx rofi polybar lxappearance imagemagick
 Then copy the files inside the config folder to .config folder
 Also Open the .config/polybar/scripts --- Right click each script and click make executable
-Copy the files from the usr/bin to /usr/bin
+Copy the files from the usr/bin to /usr/bin   ##Copy the i3lock if necessary
 Then extract the fonts.tar.gz to the /usr/share/fonts/ 
 
 ##Optional Icons,themes,
