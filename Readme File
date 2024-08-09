@@ -10,6 +10,13 @@ Then extract the fonts.tar.gz to the /usr/share/fonts/
 ##Optional Icons,themes,
 Extract the Cachyos-nord theme,Icons to /usr/share/icons ,/usr/share/themes
 
+###Lcokscreeen Rofi
+Copy the cache dirs files to .cache dir
+
+###install betterlockscreen
+wget https://raw.githubusercontent.com/betterlockscreen/betterlockscreen/main/install.sh -O - -q | sudo bash -s system
+
+##For the Brightness module to work
 Then open the etc/udev/rules.d/90-backlight.rules with your text editor and replace username with your linux username
 
 ###Optional If you want to replace bash with zsh follow this
